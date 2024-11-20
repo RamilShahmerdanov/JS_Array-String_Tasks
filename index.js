@@ -28,7 +28,7 @@ console.log(result);
 // Extract the word "Adventure" from the string headline .
 
 let headline = "Choose Your Adventure!";
-let result1 =headline.split(" ")[2];//bu usul; vasitesile biz verilmis stringin 2 ci indeksini extract etdik.
+let result1 =headline.split(" ")[2];//bu usul; vasitesile biz verilmis stringi arraya ceviririk ve arrayin 2 ci indeksini extract edirik
 result2 =result1.replace("!"," ");//bu bendde ise biz sozun sonunda olan ! isaresini bosluq ile evez etdik.
 console.log(result2);
 //----------------------
